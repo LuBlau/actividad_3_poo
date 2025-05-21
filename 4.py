@@ -65,7 +65,6 @@ class Profesor(Persona):
         print(f"Departamento: {self._departamento}")
         print(f"Categoría: {self._categoria}")
 
-# Ejemplo de uso
 def main():
     estudiante = Estudiante("Juan Pérez", "Calle 123", "Ingeniería", 5)
     profesor = Profesor("María Gómez", "Avenida Principal", "Matemáticas", "Titular")
